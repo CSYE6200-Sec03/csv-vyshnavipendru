@@ -10,6 +10,15 @@ Teacher.demo();
 	}
 	
 	/*
+ ----Before Sorting----
+Id	Age	First Name	Last Name		Parent First Name	 Parent Last Name	Student ID	GPA
+==============================================================================================================================
+23	12	Burl		  Sanders   		  Darell  		  Olsen  		  6756  	8.8
+76	15	Erica		  Rowe   		      Lawerence  	  Braun  		  7868  	8.9
+78	18	Miranda		  Valencia   		  Terrell  		  Klein  		  5457  	6.7
+34	17	Patrice		  Bradley   		  Garland  		  Baird  		  8687  	7.7
+54	14	Elliott		  Houston   		  Rory  		  Acosta  		  78687  	5.8
+
 ----Sort according to Id in Student----
 Id	Age	First Name	Last Name		Parent First Name	 Parent Last Name	Student ID	GPA
 ==============================================================================================================================
