@@ -45,6 +45,12 @@ public class Student extends Person implements Comparable<Student> {
 		List<Student> allStudentsSorted= new ArrayList<>();
 		String label="Id\tAge\tFirst Name\tLast Name\t\tParent First Name\t Parent Last Name\tStudent ID\tGPA"
 				+ "\n==============================================================================================================================";
+		// Before sorting 
+		System.out.println("\n----Before Sorting----");
+		System.out.println(label);
+		for (Student stu : students) {
+			System.out.println(stu);
+		}
 		// sorting according to Id
 		System.out.println("\n----Sort according to Id in Student----");
 		Collections.sort(students, (i, j) -> i.getID() > j.getID() ? 1 : -1);
